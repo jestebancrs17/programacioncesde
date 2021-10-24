@@ -1,0 +1,47 @@
+.banner {height: 600px;}
+.textocentrado {text-align: center; font-weight: 700;}
+.imghistoria {max-height: 300px; max-width: 300px;}
+.fondosect {background-color: #f4f4f4;}
+.alineado {text-align: center;}
+
+.asidegrid{
+    position: absolute;
+    background-color: #6b6b6b;
+    text-align: right;
+}
+
+.asidegrid h3 {
+    color: #fff;
+}
+
+.asidegrid h6{
+    color: #fff;
+}
+.asidegrid ul{
+    padding: 0;
+    list-style: none;
+}
+
+.asidegrid a{
+    text-decoration: none;
+    color: #fff;
+    opacity: 70%;
+}
+
+.asidegrid a:hover{
+    text-decoration:underline;
+    color: #f7f7f7;
+    opacity: 100%;
+}
+
+.imagenblog {
+    height: 500px;
+    padding: 10px;
+    display: block;
+    position: center;
+}
+
+.noticia {
+    text-align: justify;
+    box-sizing: border-box;
+}
