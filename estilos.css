@@ -45,3 +45,19 @@
     text-align: justify;
     box-sizing: border-box;
 }
+
+.imagen3 {
+    width: 500px;
+    display:block;
+    position: center;
+    padding: 20px;
+    float:right;
+}
+
+.imagen4 {
+    width: 500px;
+    display:block;
+    position: center;
+    padding: 20px;
+    float:left;
+}
