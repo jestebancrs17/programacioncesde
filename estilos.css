@@ -8,6 +8,7 @@
     position: absolute;
     background-color: #6b6b6b;
     text-align: right;
+    height: 700px;
 }
 
 .asidegrid h3 {
@@ -60,4 +61,8 @@
     position: center;
     padding: 20px;
     float:left;
+}
+
+.noticia2{
+    justify-content: space-between;
 }
