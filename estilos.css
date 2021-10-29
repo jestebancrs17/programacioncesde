@@ -1,68 +1,124 @@
-.banner {height: 600px;}
-.textocentrado {text-align: center; font-weight: 700;}
-.imghistoria {max-height: 300px; max-width: 300px;}
-.fondosect {background-color: #f4f4f4;}
-.alineado {text-align: center;}
-
-.asidegrid{
-    position: absolute;
-    background-color: #6b6b6b;
-    text-align: right;
-    height: 700px;
-}
-
-.asidegrid h3 {
-    color: #fff;
-}
-
-.asidegrid h6{
-    color: #fff;
-}
-.asidegrid ul{
+*{
     padding: 0;
-    list-style: none;
-}
-
-.asidegrid a{
-    text-decoration: none;
-    color: #fff;
-    opacity: 70%;
-}
-
-.asidegrid a:hover{
-    text-decoration:underline;
-    color: #f7f7f7;
-    opacity: 100%;
-}
-
-.imagenblog {
-    height: 500px;
-    padding: 10px;
-    display: block;
-    position: center;
-}
-
-.noticia {
-    text-align: justify;
+    margin: 0;
     box-sizing: border-box;
 }
 
-.imagen3 {
-    width: 500px;
-    display:block;
-    position: center;
-    padding: 20px;
-    float:right;
+.carrusel{
+    width: 100%;
+    display: flex;
+    max-height: 500px;
+    
 }
 
-.imagen4 {
-    width: 500px;
-    display:block;
-    position: center;
-    padding: 20px;
-    float:left;
+.noticiasfeed{
+    text-align: center;
 }
 
-.noticia2{
-    justify-content: space-between;
+.noticiasfeed h1{
+    font-size: 28px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.noticiasfeed h5{
+    font-size: 16px;
+}
+
+.noticiasfeed p{
+    font-size: 12px;
+}
+
+.multimedia{
+    text-align: center;
+    background-image: url(img/fondo.png);
+    background-position: center;
+}
+
+.multimedia h1{
+    font-size: 28px;
+    font-weight: 700;
+    text-decoration: underline;
+    color: #f4f4f4;
+}
+
+.multimedia h2{
+    color: #f4f4f4;
+}
+
+.multimedia img{
+    max-width: 300px;
+    border-color: #f4f4f4;
+    border-style: double;
+    border-width: 5px;
+}
+
+.multimedia h3{
+    color: #fff;
+    font-size: 16px;
+}
+
+.formulario{
+    background-color: #f4f4f4;
+    text-align: justify;
+}
+
+.historia h1{
+    font-size: 28px;
+    font-weight: 700;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.noticias h2{
+    font-size: 28px;
+    font-weight: 900;
+    text-decoration: underline;
+    text-align: justify;
+}
+
+.noticias h5{
+    font-size: 12px;
+}
+
+.textos{
+    text-align: justify;
+}
+
+.encabezado{
+    font-weight: 600;
+    font-style: italic;
+    margin: 10px;
+}
+
+.aside{
+    background-color: #4f4f4f;
+    padding: 0;
+}
+
+.aside li{
+    list-style: none;
+}
+
+.aside a{
+    text-decoration: none;
+    color: #f4f4f4;
+}
+
+.aside a:hover{
+    opacity: 50%;
+    color: #f4f4f4;
+    text-decoration: underline;
+}
+
+.aside h3{
+    color: #f4f4f4;
+}
+
+.alineado{
+    text-align: center;
+}
+
+.nosotros{
+    text-align: justify;
 }
